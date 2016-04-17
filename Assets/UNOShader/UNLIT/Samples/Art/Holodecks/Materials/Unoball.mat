@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Unoball
+  m_Shader: {fileID: 4800000, guid: a1d65c56161240747a06dc1409170736, type: 3}
+  m_ShaderKeywords: AMBIENT_ON BASE_BRDF CUSTOMLIGHTMAP_ON CUSTOMSHADOW_OFF LDIR_ON
+    NORMAL_EDGETRANSPARENCY ORTHO_OFF OUTLINE_ADVANCED REFCUSTOM_ON _EMISSION lmUV1_OFF
+    maskTex_ON mathPixel_ON
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DecalTex
+        second:
+          m_Texture: {fileID: 2800000, guid: c627356998edf144c80eb212e81090cb, type: 3}
+          m_Scale: {x: 1.4, y: 1.4}
+          m_Offset: {x: -0.21, y: -0.31}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: c627356998edf144c80eb212e81090cb, type: 3}
+          m_Scale: {x: 1.4, y: 1.4}
+          m_Offset: {x: -0.21, y: -0.31}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BRDF
+        second:
+          m_Texture: {fileID: 2800000, guid: 3698ba58fce8d7f4db072cb7fe05ce71, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LightmapTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OutlineTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MasksTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: ac27f454bd504af4087c39f105846444, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Parallax
+        second: 0.02
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: 0.5
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _Metallic
+        second: 0.8
+      data:
+        first:
+          name: _BRDFBrightness
+        second: 0
+      data:
+        first:
+          name: _Transparency
+        second: 1
+      data:
+        first:
+          name: _TransparencyFresnel
+        second: 10
+      data:
+        first:
+          name: _Outline
+        second: 0.004
+      data:
+        first:
+          name: _OutlineX
+        second: 0.004
+      data:
+        first:
+          name: _OutlineY
+        second: 0.001
+      data:
+        first:
+          name: _OutlineIntensity
+        second: 1
+      data:
+        first:
+          name: _MainTexOpacity
+        second: 1
+      data:
+        first:
+          name: _CubeOpacity
+        second: 1
+      data:
+        first:
+          name: _CubeFresnel
+        second: 1.16
+      data:
+        first:
+          name: _CubeIntensity
+        second: 1
+      data:
+        first:
+          name: _RimFresnel
+        second: 0
+      data:
+        first:
+          name: _RimIntensity
+        second: 1
+      data:
+        first:
+          name: _EmissionIntensity
+        second: 1
+      data:
+        first:
+          name: _EmissionBakeIntensity
+        second: 2
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _Color
+        second: {r: 0.5861386, g: 0.5861386, b: 0.5861386, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0.4817239, g: 0.94765323, b: 0.9874088, a: 1}
+      data:
+        first:
+          name: _DecalColor
+        second: {r: 0.77120066, g: 0.77120066, b: 0.77120066, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 0.7781027, g: 0.8096525, b: 0.9560154, a: 1}

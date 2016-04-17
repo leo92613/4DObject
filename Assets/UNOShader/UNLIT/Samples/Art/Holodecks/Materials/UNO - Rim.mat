@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UNO - Rim
+  m_Shader: {fileID: 4800000, guid: d265ad4e414678c4487e731fa3e279f8, type: 3}
+  m_ShaderKeywords: AMBIENT_ON BASE_UNLIT CUSTOMLIGHTMAP_OFF CUSTOMSHADOW_OFF LDIR_ON
+    REFCUSTOM_ON maskTex_OFF mathPixel_OFF
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 1cd4bc575a232214f9cb5b29cdbeb040, type: 3}
+          m_Scale: {x: 8, y: 4}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DecalTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 1de5cdb323241f8448f5d086f7c58176, type: 3}
+          m_Scale: {x: 0.9, y: 0.9}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BRDF
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LightmapTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MasksTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: ac27f454bd504af4087c39f105846444, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 1cd4bc575a232214f9cb5b29cdbeb040, type: 3}
+          m_Scale: {x: 8, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _GlowTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Illum
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BRDFMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 811434581690c004aba777e2e080801f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CubeMap
+        second:
+          m_Texture: {fileID: 8900000, guid: 071a7ba19bf038f47a9121da42807f0a, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Metallic
+        second: 1
+      data:
+        first:
+          name: _BRDFBrightness
+        second: 0
+      data:
+        first:
+          name: _MainTexOpacity
+        second: 1
+      data:
+        first:
+          name: _CubeOpacity
+        second: 0.8
+      data:
+        first:
+          name: _CubeFresnel
+        second: 0.16
+      data:
+        first:
+          name: _RimFresnel
+        second: 0.76799357
+      data:
+        first:
+          name: _RimIntensity
+        second: 1
+      data:
+        first:
+          name: _EmissionIntensity
+        second: 1
+      data:
+        first:
+          name: _EmissionBakeIntensity
+        second: 2
+      data:
+        first:
+          name: _RefAmount
+        second: 1
+      data:
+        first:
+          name: _RefBias
+        second: 1
+      data:
+        first:
+          name: _EmissionLM
+        second: 1
+      data:
+        first:
+          name: _GlowV
+        second: 1
+      data:
+        first:
+          name: _CubeBias
+        second: 1
+      data:
+        first:
+          name: _RimBias
+        second: 1.3302455
+      data:
+        first:
+          name: _ReflectionLuminance
+        second: 1.46
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 1, g: 0.7, b: 0.3, a: 0}
+      data:
+        first:
+          name: _Color
+        second: {r: 0.82484704, g: 0.3512098, b: 0.24188179, a: 1}
+      data:
+        first:
+          name: _DecalColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 0.40857512, g: 0.85443276, b: 1, a: 1}
+      data:
+        first:
+          name: _ColorBase
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _DiffuseColor
+        second: {r: 0.47361594, g: 0.4923428, b: 0.53676474, a: 1}
+      data:
+        first:
+          name: _GlowColor
+        second: {r: 1, g: 0.7, b: 0.3, a: 0}
+      data:
+        first:
+          name: _Ambient_Color
+        second: {r: 0.05213208, g: 0.03230118, b: 0.07462686, a: 1}
+      data:
+        first:
+          name: _Light1_Color
+        second: {r: 1, g: 0.9724455, b: 0.9104478, a: 1}
+      data:
+        first:
+          name: _Light2_Color
+        second: {r: 0.451771, g: 0.6264202, b: 0.7761194, a: 1}
+      data:
+        first:
+          name: _Light1_Position
+        second: {r: 40, g: 40, b: 60, a: 0}
+      data:
+        first:
+          name: _Light2_Position
+        second: {r: 0, g: 40, b: -20, a: 0}
