@@ -4,7 +4,7 @@ using System;
 
 namespace Holojam
 {
-	public class FourDManager : WiiGlobalReceiver, IGlobalWiiMoteBHandler  , IGlobalWiiMotePlusHandler {
+	public class FourDManager : WiiGlobalReceiver , IGlobalWiiMotePlusHandler {
 	public GameObject[] FourDObjectcs;
 	int toggle;
 	public GameObject Trackball;
@@ -34,7 +34,7 @@ namespace Holojam
 		updateobject(toggle);
 
 	}
-	
+
 
 		public void OnGlobalPlusPressDown (WiiMoteEventData eventData)
 		{
@@ -49,15 +49,7 @@ namespace Holojam
 		{
 		}
 
-		public void OnGlobalBPressDown (WiiMoteEventData eventData)
-		{
-		}
-		public void OnGlobalBPress (WiiMoteEventData eventData)
-		{
-		}
-		public void OnGlobalBPressUp (WiiMoteEventData eventData)
-		{
-		}
+
 
 }
 
